@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import matplotlib
 
 df = pd.read_csv("titanic.csv")
 df.columns = ["PassengerId","Survived","Pclass","Name","Sex","Age","SibSp","Parch","Ticket","Fare","Cabin","Embarked"]
